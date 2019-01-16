@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Dynamo.Wpf.Properties {
-    using System;
-    
-    
+namespace Dynamo.Wpf.Properties
+{
+
+
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -744,6 +744,15 @@ namespace Dynamo.Wpf.Properties {
         public static string CrashPromptDialogTitle {
             get {
                 return ResourceManager.GetString("CrashPromptDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Crash report from Dynamo {0}.
+        /// </summary>
+        public static string CrashPromptGithubNewIssueTitle {
+            get {
+                return ResourceManager.GetString("CrashPromptGithubNewIssueTitle", resourceCulture);
             }
         }
         
